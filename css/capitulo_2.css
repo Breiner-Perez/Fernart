@@ -1,0 +1,71 @@
+.fondo2{
+    width: 100%;
+    height: 58vh;
+    background-size: cover;
+    background-image: url(../assets/img/img2/fondo\ LIBRO\ MANOS-01.png);
+}
+
+.JUAN2{
+    width: 30%;
+    position: absolute;
+    margin-top: 12rem;
+    margin-left: 6rem;
+}
+.PIESS{
+    width: 60%;
+    position: absolute;
+    margin-top: 12rem;
+    margin-left: 20%;
+}
+.MANOS{
+    width: 70%;
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 12rem;
+}
+
+.manosanimadas{
+    animation: manosanimadas 2s forwards;
+
+}
+@keyframes manosanimadas {
+    0% {
+        transform:scale(1);
+        margin-top: 15rem;
+      }
+    
+      100% {
+        transform:scale(1.1);
+        margin-top: 12rem;
+      }
+}
+
+.icono{
+    width: 10%;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 78%;
+}
+.escondericono{
+    display: none;
+}
+
+
+.dialogos1{
+    width: 10%;
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 3rem;
+}
+.dialogos2{
+    width: 20%;
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 48rem;
+}
+.esconde1{
+    display: none;
+}
+.esconde2{
+    display: none;
+}

@@ -1,0 +1,22 @@
+.circulo{
+    margin-top: 24rem;
+    margin-left: 50rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 1.5rem solid #ffe600c5;
+    animation: circulo 0.7s infinite;
+}
+
+@keyframes circulo {
+    0%{
+        transform: scale(1.2);
+    }
+    50%{
+        transform: scale(1);
+        border: 1.5rem solid #ffc400;
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}

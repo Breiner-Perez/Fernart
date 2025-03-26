@@ -1,0 +1,94 @@
+  <!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>comic</title>
+</head>
+
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../boostrap/bootstrap.css">
+    <link rel="stylesheet" href="../css/selector_de_capitulos.css">
+    <link rel="stylesheet" href="../css/capitulo_1.css">
+    <link rel="stylesheet" href="../css/capitulo_2.css">
+    <title>Fernart</title>
+  </head>
+
+  <body>
+    
+    <div class="container-fluid">
+
+      <!-- medu de navegacion y logo -->
+      <div class="row bg-body-tertiary d-flex justify-content-between align-items-center">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid ">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../assets/picture/logo.png" alt="Logo" class="logo">
+            </a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon light"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end caja p-4 " id="navbarNav">
+              <ul class="navbar-nav d-flex gap-4">
+                <li class="nav-item">
+                  <a class="nav-link text-seconday fw-bold" aria-disabled="true" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-seconday fw-bold active" href="../pages/comic.html">Comic</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+<div class="row d-flex justify-content-between align-items-center">
+
+  <a class="text-decoration-none col-lg-5" href="./comic.html"><h1 class="text-center my-5 fw-bold tx-bg-ocre">Volver</h1></a>
+  <a class="text-decoration-none col-lg-5" href="./comic.html"><h1 class="text-center my-5 fw-bold tx-bg-ocre">Siguiente</h1></a>
+
+</div>
+      
+<div class="video d-flex justify-content-center align-items-center">
+
+  <video id="miVideo" width="640" height="360">
+    <source src="../assets/video/cap_2.mp4" type="video/mp4">
+   </video>
+   <button id="reproducir" ></button>
+
+</div>
+
+
+<h1 id="num">
+  0
+</h1>
+
+      <!-- footer -->
+      <footer class="row bg-dark footer mt-5">
+        <div class="col d-flex justify-content-center align-items-center">
+          <img src="../assets/picture/Copyright-Symbol-PNG-Picture.png" alt="" class="copy p-2">
+        </div>
+      </footer>
+      
+    </div>
+
+  </body>
+
+  <script src="../js/cap2.js"></script>
+  <script src="../boostrap/bootstrap.js"></script>
+  <script src="../js/cap_2.js"></script>
+  <script src="../js/capitulo_1.js"></script>
+  <script src="../js/capitulo_2.js"></script>
+
+  </html>
+</body>
+
+</html>

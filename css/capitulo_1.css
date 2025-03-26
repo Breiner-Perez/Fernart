@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 6rem;
+}
+
+.copy {
+    width: 10rem;
+}
+
+.fondo{
+    width: 100%;
+    height: 58vh;
+    background-size: cover;
+    background-image: url(../assets/img/fondo\ interior\ casa_Mesa\ de\ trabajo\ 1.png);
+    display: flex;
+}
+/*  */
+.genesisescena2{
+    position: absolute;
+    width: 10%;
+    margin-top: 10rem;
+    margin-left: 27rem;
+
+}
+
+.genesisanimacion{
+    animation: genesis 1s forwards;
+}
+
+@keyframes genesis {
+    0% {
+        margin-left: 27rem;
+      }
+    
+      100% {
+        margin-left: 28.2rem;
+      }
+}
+
+
+.camaescena1{
+    position: absolute;
+    width: 60%;
+    margin-top: 15rem;
+    margin-left: 17rem;
+}
+/*  */
+.oculto{
+    display: none;
+    position: absolute;
+}
+.oculto2{
+    width: 20%;
+    height: 25%;
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 15rem;
+}
+/*  */
+.oculto3{
+    width: 20%;
+    height: 22%;
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 40rem;
+}
+.oculto4{
+    display: none;
+}
+
+.nino{
+    width: 15%;
+    height: 10%;
+    position: absolute;
+    margin-top: 17rem;
+    margin-left: 33rem;
+}
+
+
+
+
+/*  */
+.llama{
+    width: 3.7rem;
+    height: 4rem;
+    margin-top: 26rem;
+    margin-left: 8.5rem;
+    position: absolute;
+}
+
+.llamaanicacion{
+    animation: llama 0.5s infinite;
+}
+
+@keyframes llama {
+    0% {
+        opacity: 0;
+      }
+    
+      100% {
+        opacity: 100;
+      }
+}
+
+.footer{
+    height: 10vh;
+}
+
+.video{
+    height: 65vh;
+}
+
+#miVideo{
+    width: 100%;
+    height: 100%;
+}
+#reproducir{
+    width: 10rem;
+    height: 10rem;
+    border: 10px solid yellow;
+    border-radius: 50%;
+    position: absolute;
+    animation: scala 1s infinite;
+    background-color: transparent;
+}
+@keyframes scala{
+    0%, 100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+        border: 10px solid rgb(176, 176, 7);
+    }
+}
