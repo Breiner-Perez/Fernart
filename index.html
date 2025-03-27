@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="stylesheet" href="./boostrap/bootstrap.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="./css/estilo.css">
 </head>
 
@@ -19,65 +20,41 @@
             <div class="principal">
 
 
-                <div class="row menu d-flex justify-content-center align-items-center">
+                <div class="row menu d-flex align-items-center">
 
-                    <div class="col-lg-6 d-flex justify-content-start align-items-center">
-
-                        <img class="logo-blanco ms-5" src="./assets/fondos/logo-blanco.png" alt="">
-
+                    <!-- Logo alineado a la izquierda -->
+                    <div class="col-4 d-flex justify-content-start align-items-center">
+                        <img class="logo-blanco ms-3" src="./assets/fondos/logo-blanco.png" alt="Logo">
                     </div>
 
-                    <div class="col-lg-6 d-flex justify-content-end align-items-center">
-
-                        <nav class="navbar navbar-expand-lg me-5">
-
+                    <!-- Menú hamburguesa alineado al centro -->
+                    <div class="col-8 d-flex justify-content-end align-items-center">
+                        <nav class="navbar navbar-expand-lg">
                             <div class="container-fluid">
-
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                    aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                                    <ul class="navbar-nav ms-auto mb-lg-0 grid gap-5">
-
-                                        <li class="nav-item">
-                                            <a class="nav-link text-light fs-5 fw-bold" href="#proyecto">PROYECTO</a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link text-light fs-5 fw-bold" href="#historia">HISTORIA</a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link text-light fs-5 fw-bold"
-                                                href="#personajes">PERSONAJES</a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link text-light fs-5 fw-bold"
-                                                href="./pages/comic.html">COMIC</a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link text-light fs-5 fw-bold" href="#datoscuriosos">DATOS
-                                                CURIOSOS</a>
-                                        </li>
-
-
+                                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                                    <ul class="navbar-nav gap-4">
+                                        <li class="nav-item"><a class="nav-link text-light fs-5 fw-bold"
+                                                href="#proyecto">PROYECTO</a></li>
+                                        <li class="nav-item"><a class="nav-link text-light fs-5 fw-bold"
+                                                href="#historia">HISTORIA</a></li>
+                                        <li class="nav-item"><a class="nav-link text-light fs-5 fw-bold"
+                                                href="#personajes">PERSONAJES</a></li>
+                                        <li class="nav-item"><a class="nav-link text-light fs-5 fw-bold"
+                                                href="./pages/comic.html">COMIC</a></li>
+                                        <li class="nav-item"><a class="nav-link text-light fs-5 fw-bold"
+                                                href="#datoscuriosos">DATOS CURIOSOS</a></li>
                                     </ul>
-
                                 </div>
-
                             </div>
-
                         </nav>
-
                     </div>
-
                 </div>
+
 
 
                 <div class="row info d-flex justify-content-end">
@@ -175,8 +152,8 @@
 
             <div class="col-lg-5 d-flex justify-content-center align-items-center my-5">
 
-                <iframe width="560" height="315" src="./assets/video/tiser del proyecto.mp4" title="YouTube video player"
-                    frameborder="0"
+                <iframe width="560" height="315" src="./assets/video/tiser del proyecto.mp4"
+                    title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -257,14 +234,16 @@
                     <div class="image_container">
                         <img class="image" src="./assets/fondos/juan.png" alt="">
                     </div>
-                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#card-juan">JUAN</button>
-            
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                        data-bs-target="#card-juan">JUAN</button>
+
                     <div class="modal fade" id="card-juan" tabindex="-1" aria-labelledby="juanLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h1 class="modal-title fs-5" id="juanLabel">Juan</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <div class="row align-items-center">
@@ -272,31 +251,37 @@
                                             <img class="img-fluid per" src="./assets/fondos/juan.png" alt="">
                                         </div>
                                         <div class="col-lg-6 d-flex align-items-center h-100">
-                                            <p class="text text-center">Tiene un aspecto despreocupado y desenfadado, con el cabello alborotado y una sonrisa pícara que nunca falta en su rostro.</p>
+                                            <p class="text text-center">Tiene un aspecto despreocupado y desenfadado,
+                                                con el cabello alborotado y una sonrisa pícara que nunca falta en su
+                                                rostro.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            
+
                 <!-- Génesis -->
                 <div class="card2" data-bs-toggle="modal" data-bs-target="#card-genesis">
                     <div class="image_container">
                         <img class="image" src="./assets/fondos/genesis.png" alt="">
                     </div>
-                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#card-genesis">GENESIS</button>
-            
-                    <div class="modal fade" id="card-genesis" tabindex="-1" aria-labelledby="genesisLabel" aria-hidden="true">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                        data-bs-target="#card-genesis">GENESIS</button>
+
+                    <div class="modal fade" id="card-genesis" tabindex="-1" aria-labelledby="genesisLabel"
+                        aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h1 class="modal-title fs-5" id="genesisLabel">Génesis</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <div class="row align-items-center">
@@ -304,31 +289,37 @@
                                             <img class="img-fluid per" src="./assets/fondos/genesis.png" alt="">
                                         </div>
                                         <div class="col-lg-6 d-flex align-items-center h-100">
-                                            <p class="text text-center">Es una persona enérgica y creativa, siempre en busca de nuevas ideas. Su cabello rizado y sus gafas grandes reflejan su estilo único.</p>
+                                            <p class="text text-center">Es una persona enérgica y creativa, siempre en
+                                                busca de nuevas ideas. Su cabello rizado y sus gafas grandes reflejan su
+                                                estilo único.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            
+
                 <!-- Pedro -->
                 <div class="card2" data-bs-toggle="modal" data-bs-target="#card-pedro">
                     <div class="image_container">
                         <img class="image" src="./assets/fondos/pedro.png" alt="">
                     </div>
-                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#card-pedro">PEDRO</button>
-            
-                    <div class="modal fade" id="card-pedro" tabindex="-1" aria-labelledby="pedroLabel" aria-hidden="true">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                        data-bs-target="#card-pedro">PEDRO</button>
+
+                    <div class="modal fade" id="card-pedro" tabindex="-1" aria-labelledby="pedroLabel"
+                        aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h1 class="modal-title fs-5" id="pedroLabel">Pedro</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <div class="row align-items-center">
@@ -336,19 +327,22 @@
                                             <img class="img-fluid per" src="./assets/fondos/pedro.png" alt="">
                                         </div>
                                         <div class="col-lg-6 d-flex align-items-center h-100">
-                                            <p class="text text-center">Pedro tiene una presencia imponente, con una estatura alta y una complexión robusta. Su actitud serena y su mirada firme lo hacen parecer confiable y protector.</p>
+                                            <p class="text text-center">Pedro tiene una presencia imponente, con una
+                                                estatura alta y una complexión robusta. Su actitud serena y su mirada
+                                                firme lo hacen parecer confiable y protector.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
 
 
 
@@ -358,14 +352,16 @@
                     <div class="image_container">
                         <img class="image" src="./assets/fondos/gato.png" alt="">
                     </div>
-                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#card-gato">GATO</button>
-            
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                        data-bs-target="#card-gato">GATO</button>
+
                     <div class="modal fade" id="card-gato" tabindex="-1" aria-labelledby="gatoLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h1 class="modal-title fs-5" id="gatoLabel">Gato</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <div class="row align-items-center">
@@ -373,31 +369,37 @@
                                             <img class="img-fluid per" src="./assets/fondos/gato.png" alt="">
                                         </div>
                                         <div class="col-lg-6 d-flex align-items-center h-100">
-                                            <p class="text text-center">Una figura esbelta pero redondeada, con ojos grandes y expresivos que transmiten una astucia juguetona. Su postura sugiere agilidad y curiosidad, con patas ágiles listas para moverse.</p>
+                                            <p class="text text-center">Una figura esbelta pero redondeada, con ojos
+                                                grandes y expresivos que transmiten una astucia juguetona. Su postura
+                                                sugiere agilidad y curiosidad, con patas ágiles listas para moverse.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            
+
                 <!-- Hombre a Caballo -->
                 <div class="card2" data-bs-toggle="modal" data-bs-target="#card-hombre-caballo">
                     <div class="image_container">
                         <img class="image" src="./assets/fondos/hombre-caballo.png" alt="">
                     </div>
-                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#card-hombre-caballo">HOMBRE A CABALLO</button>
-            
-                    <div class="modal fade" id="card-hombre-caballo" tabindex="-1" aria-labelledby="hombreCaballoLabel" aria-hidden="true">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                        data-bs-target="#card-hombre-caballo">HOMBRE A CABALLO</button>
+
+                    <div class="modal fade" id="card-hombre-caballo" tabindex="-1" aria-labelledby="hombreCaballoLabel"
+                        aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h1 class="modal-title fs-5" id="hombreCaballoLabel">Hombre a Caballo</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <div class="row align-items-center">
@@ -405,31 +407,38 @@
                                             <img class="img-fluid per" src="./assets/fondos/hombre-caballo.png" alt="">
                                         </div>
                                         <div class="col-lg-6 d-flex align-items-center h-100">
-                                            <p class="text text-center">Una figura robusta y poderosa, con rasgos faciales suaves pero marcados que reflejan su determinación y valentía. Montado en su caballo, su postura es majestuosa y segura, transmitiendo una sensación de autoridad y liderazgo.</p>
+                                            <p class="text text-center">Una figura robusta y poderosa, con rasgos
+                                                faciales suaves pero marcados que reflejan su determinación y valentía.
+                                                Montado en su caballo, su postura es majestuosa y segura, transmitiendo
+                                                una sensación de autoridad y liderazgo.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            
+
                 <!-- Mujer Reclinada -->
                 <div class="card2" data-bs-toggle="modal" data-bs-target="#card-mujer-reclinada">
                     <div class="image_container">
                         <img class="image" src="./assets/fondos/mujer.png" alt="">
                     </div>
-                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#card-mujer-reclinada">MUJER RECLINADA</button>
-            
-                    <div class="modal fade" id="card-mujer-reclinada" tabindex="-1" aria-labelledby="mujerReclinadaLabel" aria-hidden="true">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                        data-bs-target="#card-mujer-reclinada">MUJER RECLINADA</button>
+
+                    <div class="modal fade" id="card-mujer-reclinada" tabindex="-1"
+                        aria-labelledby="mujerReclinadaLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h1 class="modal-title fs-5" id="mujerReclinadaLabel">Mujer Reclinada</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <div class="row align-items-center">
@@ -437,19 +446,23 @@
                                             <img class="img-fluid per" src="./assets/fondos/mujer.png" alt="">
                                         </div>
                                         <div class="col-lg-6 d-flex align-items-center h-100">
-                                            <p class="text text-center">Una figura femenina y voluptuosa, con curvas suaves y redondeadas que reflejan la belleza natural del cuerpo humano. Su expresión tranquila y serena irradia calma y sabiduría, invitando a los observadores a contemplarla con reverencia.</p>
+                                            <p class="text text-center">Una figura femenina y voluptuosa, con curvas
+                                                suaves y redondeadas que reflejan la belleza natural del cuerpo humano.
+                                                Su expresión tranquila y serena irradia calma y sabiduría, invitando a
+                                                los observadores a contemplarla con reverencia.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
 
             <div class="col-lg-1 comic mt-5 d-flex justify-content-center align-items-center ">
                 <a href="#" class="text-center bg-secondary-subtle fs-4 text-dark">VER COMIC</a>
@@ -634,8 +647,12 @@
 
 
     </main>
+
     <script src="./boostrap/bootstrap.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
 
 </body>
 

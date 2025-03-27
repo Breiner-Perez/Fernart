@@ -9,13 +9,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* 
-.menu {
-  height: 20vh;
-} */
 
 .menu {
-  height: 16vh;
+  height: 8rem;
   position: fixed;
   width: 100%;
   background-color: #316f83db;
@@ -23,7 +19,7 @@
 }
 
 .logo-blanco {
-  height: 10vh;
+  height: 5rem;
 }
 
 .info{
@@ -48,32 +44,22 @@
   height: 1005;
 }
 
-/* Media query para pantallas pequeñas */
-@media (max-width: 768px) {
-  .navbar {
-      /* Mantener el fondo original para el navbar */
+/* @media (max-width: 991px) {
+  .container-fluid {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
   }
 
-  .navbar-nav .nav-link {
-      color: #316f83; /* Color de texto que se distinga */
-      padding: 1rem; /* Espaciado para el texto */
+  .navbar-collapse {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
   }
+} */
 
-  .navbar-toggler {
-      border-color: #316f83; /* Color del borde del botón */
-  }
-
-  .navbar-toggler-icon {
-      background-color: #316f83; /* Color del icono de hamburguesa */
-  }
-
-  /* Estilos aplicados solo cuando el menú está desplegado */
-  .collapse.show {
-      background-color: rgba(124, 124, 124, 0.9); /* Color de fondo claro al desplegar */
-      padding: 1rem; /* Espacio en el interior */
-  }
-
-}
 
 
 
